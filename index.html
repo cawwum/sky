@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script async src="./javascript/index.js"></script>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <title>Moodslider</title>
+</head>
+<body class = "all">
+<div>
+    <table class="headerTable">
+        <tr>
+            <td style = "width:150px;height:100px"><img src="resources/sky.png" alt="Sky" id="logo"></td>
+            <td style = "width:100%; text-align: center; vertical-align: middle;"><label id="title">Moodslider</label></td>
+            <td style = ""> <button id="upload">Upload Content</button></td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <table class="slidertable">
+        <tr>
+            <td style = "width:150px;height:50px"><div class = "sliderlabel">Happy</div></td>
+            <td><input type="range" min="0" max="100" value="50" class="slider" id="range1"></td>
+            <td style = "width:150px"><div class = "sliderlabel">Sad</div></td>
+        </tr>
+        <tr>
+            <td style = "width:150px; height:50px"><div class = "sliderlabel">Calm</div></td>
+            <td><input type="range" min="0" max="100" value="50" class="slider" id="range2"></td>
+            <td style = "width:150px"><div class = "sliderlabel">Frustrated</div></td>
+        </tr>
+        <tr>
+            <td style = "width:150px;height:50px"><div class = "sliderlabel">Fearless</div></td>
+            <td><input type="range" min="0" max="100" value="50" class="slider" id="range3"></td>
+            <td style = "width:150px"><div class = "sliderlabel">Scared</div></td>
+        </tr>
+        <tr>
+            <td style = "width:150px;height:50px"><div class = "sliderlabel">Focused</div></td>
+            <td><input type="range" min="0" max="100" value="50" class="slider" id="range4"></td>
+            <td style = "width:150px"><div class = "sliderlabel">Tired</div></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
